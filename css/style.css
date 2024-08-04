@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 h1{
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     font-weight: 700;
 }
 h2{
@@ -18,8 +18,14 @@ h2{
 button{
     font-size: 1rem;
     font-weight: 600;
+    border-radius: 10px;
+    background-color: #04146C;
+    padding: 10px 19px;
+    border-style: none;
+    color: white;
+    line-height: 27.5px;
 }
-p, a{
+p, a, li{
     font-size: 1rem;
     font-weight: 300;
 }
@@ -46,3 +52,150 @@ nav a{
      margin: 15px;
 }
 
+.btn{
+    border-radius: 20px;
+    background-color: #04146C;
+    color: white;
+}
+.hero {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.hero div{
+    width: auto;
+    margin: auto 0px;
+}
+.hero h1, p, button{
+    margin: 30px 0px;
+}
+.hero figure{
+    margin-left: auto;
+    width: 590px;
+}
+.hero img {
+    width: 100%;
+    margin: auto;
+}
+.marca{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 100px;
+} 
+.marca figure{
+    margin-right: auto;
+    width: 590px;
+}
+.marca img {
+    width: 100%;
+    margin: auto;
+}
+.marca div{
+    width: 50%;
+    padding-left: 50px;
+    
+
+}
+
+.desarrollo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.desarrollo figure{
+    margin-left: auto;
+    width: 590px;
+}
+.desarrollo img {
+    width: 100%;
+    margin: auto;
+}
+.clientes {
+    width: 100%;
+    text-align: center;
+}
+
+.clientes div{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+
+.clientes figure{
+    width: 300px;
+    height: auto;
+    background-color: #EFF2FF;
+    border-radius: 15px;
+   box-shadow: 0px 4px 4px 0px #00000040;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+   padding: 10px;
+    
+}
+.clientes img{
+    width: 150px;
+    margin: 20px auto;
+    border-radius: 100px;
+}
+
+.equipo{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+.equipo figure{
+    width: 590px;
+
+}
+.equipo img {
+    width: 100%;
+
+}
+
+.equipo div {
+    width: 45%;
+    margin-left: auto;
+}
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #15163D;
+}
+#text{
+    color: white;
+}
+footer section{
+    display: flex;
+    flex-wrap: wrap;
+}
+footer p{
+text-align: center;
+padding: 15px 0;
+margin: 0;
+}
+
+footer article{
+    width: 260px;
+    height: 300px;
+    margin: 30px 0 0 60px;
+}
+footer a{
+    text-decoration: none;
+}
+footer li{
+ list-style-position: inside;
+ list-style: none;
+ margin: 25px 0;
+}

@@ -46,6 +46,7 @@ nav{
 }
 nav div {
    margin: auto 0 auto auto;
+   visibility: visible;
 }
 
 nav a{
@@ -244,8 +245,8 @@ footer li{
 
     nav div a{
         font-size: 0.9rem;
-        margin: 6px 0;
-        font-weight: 400;
+        margin: 8px 0;
+        font-weight: 600;
     }
 
     nav #flecha{
